@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
+body{background-color: cornsilk; font-family: 'Raleway', sans-serif;
+}
+.imagenesfooter{width: 2%; padding-right: 2px; padding-top: 5px;}
+nav{display: flex;flex-direction: row; justify-content: flex-end;}
+a{text-decoration: none;}
+
+.flexbody{display: flex; flex-direction: column; justify-content: center; align-items: center;}/*/corresponde a index/*/
+
+.formulario{border: 5px dotted black;} /*/corresponde a pagina de contacto/*/
+
+
+.fotogrupal{width: 50%;}/*/corresponde a pagina quienes somos/*/
+
+.clientes {display: flex;flex-wrap: nowrap; width: 3%;} /*/corresponde a paginde nuestros clientes/*/
+.texto{font-size: medium;}/*/corresponde a paginde nuestros clientes/*/
+.empresas{text-align:right;}/*/corresponde a paginde nuestros clientes/*/
+.fotoclientes{width:50%; }/*/corresponde a paginde nuestros clientes/*/
+.contenedorfotos{display: flex;}/*/corresponde a paginde nuestros clientes/*/
+
+.recuadro{border: 5px double black ; width: 50%; align-self: flex-start;} /*/corresponde a pagina productos y servicios/*/
+.imagencentrada{width: 100%;;}/*/corresponde a pagina productos y servicios/*/
+
+
+.boton {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+   }
+   
+   #bottone5:hover,
+   #bottone5:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+   }
+   
+   #bottone5:hover {
+    transform: translateY(-1px);
+   }
+   
+   #bottone5:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+   }
+
+/*/ grid/*/
+
+.gridContainer   {
+width: 90%;
+border: 5px solid coral;
+margin: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 100px;
+}
+
+.gridContainer{
+padding: 20px;
+color: black;
+
+
+}
+
+.FotoProducto{
+
+justify-self: center;
+align-self: flex-start;
+width: 90%;
+}
