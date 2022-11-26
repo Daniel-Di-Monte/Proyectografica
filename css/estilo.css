@@ -3,7 +3,7 @@
 
 /*/General/*/
 body{background-color: cornsilk; font-family: 'Raleway', sans-serif;
-    min-height: 100%;
+
 }
 .imagenesfooter{width: 2%; padding-right: 2px; padding-top: 5px;}
 a{text-decoration: none;}
@@ -22,10 +22,10 @@ a{text-decoration: none;}
 .flexbody{display: flex; flex-direction: column; justify-content: center; align-items: center;}/*/corresponde a index/*/
 .titulografica{border: 3px solid black;
     border-radius: 3px;
-    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );;} /*/corresponde a index/*/
+    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );} /*/corresponde a index/*/
 
 
-.formulario{border: 5px dotted black;} /*/corresponde a pagina de contacto/*/
+.botonformulario{display: flex;justify-self: flex-end;align-self: flex-end;} /*/corresponde a pagina de contacto/*/
 
 
 .fotogrupal{width: 50%;}/*/corresponde a pagina quienes somos/*/
@@ -132,7 +132,7 @@ justify-self: center;
 .pie2{grid-area: pie2;}
 /*/grid de nuestrosclientes----------------------/*/
 .contenedor3{display: grid;
-    gap: 10px;
+gap: 10px;
 grid-template-areas:"barra3 barra3"
 "tituloizq tituloderecho"
 "fotogubernamentales fotoprivados"
