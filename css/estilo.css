@@ -1,187 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
 /*/General/*/
-body{background-color: cornsilk; font-family: 'Raleway', sans-serif;
+body {
+  background-color: cornsilk;
+  font-family: "Raleway", sans-serif;
+}
 
+.imagenesfooter {
+  width: 2%;
+  padding-right: 2px;
+  padding-top: 5px;
 }
-.imagenesfooter{width: 2%; padding-right: 2px; padding-top: 5px;}
-a{text-decoration: none;}
-.barradenavegacion{
-    list-style: none;
-    display: flex; justify-content: flex-end;
-}
-.foto{
-    display: flex;
-}
-.bordesimagenes{border: 2px solid black;
-    border-radius: 5px;}
 
-.decoraciontitulo{text-decoration: underline black;}
+a {
+  text-decoration: none;
+}
+
+.barradenavegacion {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foto {
+  display: flex;
+}
+
+.bordesimagenes {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.decoraciontitulo {
+  text-decoration: underline black;
+}
+
 /*/css por paginas/*/
-.flexbody{display: flex; flex-direction: column; justify-content: center; align-items: center;}/*/corresponde a index/*/
-.titulografica{border: 3px solid black;
-    border-radius: 3px;
-    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );} /*/corresponde a index/*/
-
-
-.botonformulario{display: flex;justify-self: flex-end;align-self: flex-end;} /*/corresponde a pagina de contacto/*/
-
-
-.fotogrupal{width: 50%;}/*/corresponde a pagina quienes somos/*/
-
-
-.texto{font-size: medium;}/*/corresponde a paginde nuestros clientes/*/
-.empresas{text-align:right;}/*/corresponde a paginde nuestros clientes/*/
-
-
-.recuadro{border: 5px double black; width: 50%;} /*/corresponde a pagina productos y servicios/*/
-.titulo{text-align:start ;} /*/corresponde a pagina productos y servicios/*/
-.titulo2{text-align:center;}/*/corresponde a pagina productos y servicios/*/
-
+.flexbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} /*/corresponde a index/*/
+.titulografica {
+  border: 3px solid black;
+  border-radius: 3px;
+  background-image: linear-gradient(90.5deg, rgba(255, 207, 139, 0.5) 1.1%, rgb(255, 207, 139) 81.3%);
+} /*/corresponde a index/*/
+.botonformulario {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+} /*/corresponde a pagina de contacto/*/
+.fotogrupal {
+  width: 50%;
+} /*/corresponde a pagina quienes somos/*/
+.texto {
+  font-size: medium;
+} /*/corresponde a paginde nuestros clientes/*/
+.empresas {
+  text-align: right;
+} /*/corresponde a paginde nuestros clientes/*/
+.recuadro {
+  border: 5px double black;
+  width: 50%;
+} /*/corresponde a pagina productos y servicios/*/
+.titulo {
+  text-align: start;
+} /*/corresponde a pagina productos y servicios/*/
+.titulo2 {
+  text-align: center;
+} /*/corresponde a pagina productos y servicios/*/
 .boton {
-    align-items: center;
-    background-color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-   }
-   
-   #bottone5:hover,
-   #bottone5:focus {
-    border-color: rgba(0, 0, 0, 0.15);
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    color: rgba(0, 0, 0, 0.65);
-   }
-   
-   #bottone5:hover {
-    transform: translateY(-1px);
-   }
-   
-   #bottone5:active {
-    background-color: #F0F0F1;
-    border-color: rgba(0, 0, 0, 0.15);
-    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-    color: rgba(0, 0, 0, 0.65);
-    transform: translateY(0);
-   }
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+  transform: translateY(-1px);
+}
+
+#bottone5:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
 /*/--------------------------------------------------------------------------/*/
 /*/ grid de productos y servicios/*/
-
-.contenedorproductos{
-    display: grid;
-    gap: 10px;
-grid-template-areas:
-"BARRADENAVEGACION BARRADENAVEGACION"
-"mimain sidebar"
-"FOTO FOTO"
-"pie pie"
-;}
-
-.barra{
-    grid-area: BARRADENAVEGACION;
+.contenedorproductos {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "BARRADENAVEGACION BARRADENAVEGACION" "mimain sidebar" "FOTO FOTO" "pie pie";
 }
 
-.pie{
-    grid-area: pie;
-    text-align: start;
+.barra {
+  grid-area: BARRADENAVEGACION;
 }
-.fotobodega{
-    grid-area: FOTO;
-    width: 50%;
-justify-self: center;
+
+.pie {
+  grid-area: pie;
+  text-align: start;
 }
-.mimain{
-    grid-area: mimain;
+
+.fotobodega {
+  grid-area: FOTO;
+  width: 50%;
+  justify-self: center;
 }
-.sidebar{
-    grid-area: sidebar;
+
+.mimain {
+  grid-area: mimain;
+}
+
+.sidebar {
+  grid-area: sidebar;
 }
 
 /*/grid de contacto -------------------------------------/*/
-.contenedor2{
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-    "barra2 barra2"
-    "main2 formulariocontacto "
-    "pie2 pie2" ;
+.contenedor2 {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "barra2 barra2" "main2 formulariocontacto " "pie2 pie2";
 }
 
-.barra2{grid-area: barra2;}
-.main2{grid-area: main2;}
-.formulariocontacto{grid-area: formulariocontacto;}
-.pie2{grid-area: pie2;}
+.barra2 {
+  grid-area: barra2;
+}
+
+.main2 {
+  grid-area: main2;
+}
+
+.formulariocontacto {
+  grid-area: formulariocontacto;
+}
+
+.pie2 {
+  grid-area: pie2;
+}
+
 /*/grid de nuestrosclientes----------------------/*/
-.contenedor3{display: grid;
-gap: 10px;
-grid-template-areas:"barra3 barra3"
-"tituloizq tituloderecho"
-"fotogubernamentales fotoprivados"
-"parrafo parrafo"
-"footer3 footer3"}
+.contenedor3 {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "barra3 barra3" "tituloizq tituloderecho" "fotogubernamentales fotoprivados" "parrafo parrafo" "footer3 footer3";
+}
 
-.barra3{grid-area: barra3;}
-.tituloizq{grid-area: tituloizq;}
-.tituloderecho{grid-area: tituloderecho;text-align: end;}
-.fotogubernamentales{grid-area: fotogubernamentales;width: 70%;}
-.fotoprivados{grid-area: fotoprivados;width:70%;justify-self: flex-end ;}
-.parrafo{grid-area: parrafo;}
-.footer3{grid-area: footer3;}
+.barra3 {
+  grid-area: barra3;
+}
+
+.tituloizq {
+  grid-area: tituloizq;
+}
+
+.tituloderecho {
+  grid-area: tituloderecho;
+  text-align: end;
+}
+
+.fotogubernamentales {
+  grid-area: fotogubernamentales;
+  width: 70%;
+}
+
+.fotoprivados {
+  grid-area: fotoprivados;
+  width: 70%;
+  justify-self: flex-end;
+}
+
+.parrafo {
+  grid-area: parrafo;
+}
+
+.footer3 {
+  grid-area: footer3;
+}
+
 /*/mediaqueries/*/
-/*/gridresponsive/*/   
-@media screen and (max-width:768px) {.contenedorproductos{
-    grid-template-areas: 
-    "BARRADENAVEGACION BARRADENAVEGACION BARRADENAVEGACION"
-    "mimain mimain mimain"
-    "sidebar sidebar sidebar"
-    "FOTO FOTO FOTO"
-    "pie pie pie"
-    ;
+/*/gridresponsive/*/
+@media screen and (max-width: 768px) {
+  .contenedorproductos {
+    grid-template-areas: "BARRADENAVEGACION BARRADENAVEGACION BARRADENAVEGACION" "mimain mimain mimain" "sidebar sidebar sidebar" "FOTO FOTO FOTO" "pie pie pie";
+  }
+  .titulo {
+    text-align: center;
+  }
+  .recuadro {
+    text-align: center;
+    align-self: center;
+  }
+  /*/hasta aca media y grid de productos y servicios/*/
+  /*/desde aca media y grid de Contacto/*/
+  .contenedor2 {
+    grid-template-areas: "barra2 barra2" "main2 main2" "formulariocontacto formulariocontacto" "pie2 pie2";
+  }
+  /*/desde aca media de nuestros clientes/*/
+  .contenedor3 {
+    grid-template-areas: "barra3 barra3" "tituloizq tituloizq" "fotogubernamentales fotogubernamentales" "tituloderecho tituloderecho" "fotoprivados fotoprivados" "parrafo parrafo" "footer3 footer3";
+  }
+  .tituloderecho {
+    text-align: start;
+  }
+  .fotogubernamentales {
+    width: 65%;
+  }
+  .fotoprivados {
+    width: 65%;
+    justify-self: flex-start;
+  }
 }
-.titulo{text-align: center;}
-.recuadro{text-align: center; align-self: center;}
-/*/hasta aca media y grid de productos y servicios/*/
-/*/desde aca media y grid de Contacto/*/
 
-.contenedor2{
-grid-template-areas: 
-"barra2 barra2"
-"main2 main2"
-"formulariocontacto formulariocontacto"
-"pie2 pie2"
-;
-}
-/*/desde aca media de nuestros clientes/*/
-.contenedor3{
-grid-template-areas: 
-"barra3 barra3"
-"tituloizq tituloizq"
-"fotogubernamentales fotogubernamentales"
-"tituloderecho tituloderecho"
-"fotoprivados fotoprivados"
-"parrafo parrafo"
-"footer3 footer3";
-}
-.tituloderecho{text-align: start;}
-.fotogubernamentales{width: 65%;}
-.fotoprivados{width: 65%;justify-self: flex-start;}
-}
+/*# sourceMappingURL=estilo.css.map */
